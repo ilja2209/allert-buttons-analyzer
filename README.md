@@ -1,3 +1,17 @@
+The project analyzes the location of the alert button and calculates the place where the user of the alert button lives. Dataset contains the next columns:
+```
+device_id - id of user's alarm buttom
+timestamp - time when event was fixed
+x and y - alert button coordinates
+```
+
+In short algorithm looks like:
+```
+1. Group all records by device_id
+2. For each group find geometric median (https://en.wikipedia.org/wiki/Geometric_median)
+3. Get results as a dataset with columns: device_id, x, y
+```
+
 To run the application to follow the next steps:
 ```
 1. If spark is installed:

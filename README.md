@@ -1,6 +1,6 @@
 To run the application to follow the next steps:
 ```
-1. If spark installed:
+1. If spark is installed:
   a. Download tgz archive: 
     wget https://github.com/ilja2209/allert-buttons-analyzer/releases/download/1.0/warningbuttontracker-1.0.tgz
   b. Unpack: 

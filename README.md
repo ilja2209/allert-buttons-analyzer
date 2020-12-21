@@ -12,7 +12,7 @@ In short algorithm looks like:
 3. Get results as a dataset with columns: device_id, x, y
 ```
 
-To run the application to follow the next steps:
+To run the application follow the next steps:
 ```
 1. If spark is installed:
   a. Download tgz archive: 
